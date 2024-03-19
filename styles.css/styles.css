@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    padding: 0.4rem;
+}
+.intro {
+    text-align: center;
+}
+.header-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 3rem;
+}
+
+h1, h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.header-menu-item, a{
+    margin-right: 1.5rem;
+    
+}
+.header-nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-end;
+}
+.profile-image {
+    width: 300;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50% 50% 50% 50%;
+}
+html {
+    font-size: 25px;
+}
+ul, ol {
+    padding-left: 25px;
+}
+ul {
+    list-style: square;
+}
+.description {
+    text-align: center;
+}
+.my-name {
+    text-align: center;
+
+}
+.background-image {
+    background-image: url(../imagis/back\ ground\ for\ project\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+.multi-column-container {
+    display: block;
+}
+.three-column-item {
+    width: calc(100% / 3 - 40px);
+    margin: 5px 5px 5px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(246, 255, 246);
+    text-align: center;
+    color: rgb(100, 45, 0);
+}
+.three-column-item .img-thumbnail {
+    width: 80%;
+    margin-top: 20px;
+}
+.form-row {
+    display: flex;
+    justify-content: center;
+}
+.multi-video-container {
+    display: block;
+}
+.three-video-item {
+    width: calc(100% / 3 - 40px);
+    margin: 5px 5px 5px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(246, 255, 246);
+    text-align: center;
+    color: rgb(100, 45, 0);
+}
+.multi-video-container .three-video-item {
+    width: 40%;
+    margin-top: 20px;
+}
+ul, ol {
+    padding-left: 25px;
+}
