@@ -20,3 +20,5 @@ the sign up page contains a way to sign up to the website
 ## content  page
 The content page contains videos. for the videos you have to click on this link and download the videos from google drive.
 video 1 link (https://drive.google.com/file/d/1LqudaagX8nojDXD_mhFeTqxfvL1PiX6I/view?usp=drive_link)
+video 2 link (https://drive.google.com/file/d/1f_fcBeTNp59u25yajnwRy1xpE7MiEP_Z/view?usp=drive_link)
+video 3 link (https://drive.google.com/file/d/10skfO19qnjPwVq94Hzl7G7BZ85lpGQjF/view?usp=drive_link)
