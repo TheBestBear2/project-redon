@@ -6,6 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(180, 43, 43);
 }
 p {
     padding: 0.4rem;
@@ -13,10 +14,18 @@ p {
 .intro {
     text-align: center;
 }
-.header-nav {
-    align-items: center;
+.header-nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.heading-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+header{
+    background-color: red;
 }
 h1 {
     font-size: 3rem;
@@ -34,6 +43,7 @@ h1, h2 {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
     justify-content: flex-end;
 }
 .profile-image {
