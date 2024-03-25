@@ -1,43 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
-}
-body {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(180, 43, 43);
-}
-p {
-    padding: 0.4rem;
-}
-.intro {
-    text-align: center;
-}
-.header-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.heading-container{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-header{
-    background-color: red;
-}
-h1 {
-    font-size: 3rem;
+    box-sizing: border-box;
 }
 
-h1, h2 {
-    text-align: center;
-    text-decoration: underline;
-}
-.header-menu-item, a{
-    margin-right: 1.5rem;
-    
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(180, 43, 43);
+    color: #fff;
+    line-height: 1.6;
 }
 .header-nav-menu {
     margin: 0;
@@ -46,72 +17,114 @@ h1, h2 {
     display: flex;
     justify-content: flex-end;
 }
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+.logo {
+    margin-right: auto;
+    color: #fff ;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-item {
+    margin-right: 1.5rem;
+    position: relative;
+}
+.header-menu-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.header-menu-item a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.intro {
+    text-align: center;
+}
+
 .profile-image {
-    width: 300;
+    width: 300px;
     display: block;
     margin: 1rem auto;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 }
-html {
-    font-size: 25px;
+
+h1, h2 {
+    text-align: center;
+    text-decoration: underline;
 }
-ul, ol {
-    padding-left: 25px;
-}
-ul {
-    list-style: square;
-}
+
 .description {
     text-align: center;
+    margin-bottom: 2rem;
 }
+
 .my-name {
     text-align: center;
-
+    padding: 1rem;
 }
+
 .background-image {
-    background-image: url(../imagis/back\ ground\ for\ project\ 1.jpg);
+    background-image: url("./images/background_for_project1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: 0;
+    padding: 3rem 0;
 }
-.multi-column-container {
-    display: block;
-}
-.three-column-item {
-    width: calc(100% / 3 - 40px);
-    margin: 5px 5px 5px;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 15px;
-    background-color: rgb(246, 255, 246);
-    text-align: center;
-    color: rgb(100, 45, 0);
-}
-.three-column-item .img-thumbnail {
-    width: 80%;
-    margin-top: 20px;
-}
+
 .form-row {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 1rem;
 }
-.multi-video-container {
-    display: block;
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
 }
-.three-video-item {
-    width: calc(100% / 3 - 40px);
-    margin: 5px 5px 5px;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 15px;
-    background-color: rgb(246, 255, 246);
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ecb8b8;
+}
+
+.my-name {
     text-align: center;
-    color: rgb(100, 45, 0);
+    padding: 1rem;
+    margin-top: 2rem; 
 }
-.multi-video-container .three-video-item {
-    width: 40%;
-    margin-top: 20px;
+
+.three-column-item {
+    text-align: center; 
 }
-ul, ol {
-    padding-left: 25px;
+
+.three-column-item img {
+    width: 200px; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
